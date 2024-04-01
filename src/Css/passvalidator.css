@@ -1,0 +1,67 @@
+.passcheck {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    border: 2px solid #ccc;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.BackGround {
+    background-color: #b8d2ee;
+    padding: 50px;
+  }
+.passcheck h1 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inp input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.progress {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.progress #bar {
+    height: 100%;
+    background-color: green;
+    transition: width 0.5s ease;
+}
+
+.passcheck h5 {
+    font-family: Arial, sans-serif;
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Progress bar colors */
+.progress #bar {
+    background-color: green;
+}
+
+.progress #bar::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.1));
+}
+.suggestion{
+    color: red
+}
